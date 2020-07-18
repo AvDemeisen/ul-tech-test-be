@@ -4,6 +4,7 @@
   "description": "utility-locker tech test back-end",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "repository": {

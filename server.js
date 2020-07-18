@@ -9,7 +9,7 @@ const config =  {
     dbPassword: "doyouknow5THINGS"
 }
 
-const mongoose = require('mongoose');
+const mongoose = require('mongoose').set('debug', true);
 const mongoUri = `mongodb://${config.dbUser}:${config.dbPassword}@ds331758.mlab.com:31758/ul-tech-test-db`;
 mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.Promise = global.Promise;

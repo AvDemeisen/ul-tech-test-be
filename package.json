@@ -1,0 +1,28 @@
+{
+  "name": "ul-tech-test-be",
+  "version": "1.0.0",
+  "description": "utility-locker tech test back-end",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvDemeisen/ul-tech-test-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvDemeisen/ul-tech-test-be/issues"
+  },
+  "homepage": "https://github.com/AvDemeisen/ul-tech-test-be#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.24"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
